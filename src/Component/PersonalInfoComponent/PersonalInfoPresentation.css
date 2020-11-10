@@ -1,0 +1,66 @@
+.personal-info-presentation-main-container {
+    margin-left: 3%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-personal-info-presentation {
+    font-family: 'Roboto Mono', monospace;
+    font-size:200%;
+    font-weight: 600;
+    text-decoration-line: underline;
+    text-decoration-color: orange;
+}
+
+.list-personal-info-presentation {
+    margin-top: 2%;
+    font-size: 150%;
+    vertical-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.list-personal-info-presentation li {
+    margin-top: 1%;
+}
+.arrow {
+    font-size: 140%;
+    margin-right: 1%;
+    font-weight: 300;
+}
+
+.pointer {
+    transform: rotate(-1deg);
+    position: relative;
+    top: 24px;
+    right: 30px;
+    color: orange;
+    transition: transform 0.3s;
+}
+.pointer:hover {
+    transform: rotate(-25deg);
+
+}
+
+.list-two-personal-info-presentation {
+    margin-top: 2%;
+    font-size: 160%;
+    font-family: 'Lato', sans-serif;
+}
+
+.list-two-personal-info-presentation a {
+    margin-left: 1%;
+    text-decoration: none;
+    color: black;
+    transition: font-size 0.5s;
+}
+.list-two-personal-info-presentation li {
+    margin-top: 3%;
+}
+.list-two-personal-info-presentation a:visited {
+    color: black;
+}
+.list-two-personal-info-presentation a:hover {
+    font-size: 105%;
+    color: orange;
+}

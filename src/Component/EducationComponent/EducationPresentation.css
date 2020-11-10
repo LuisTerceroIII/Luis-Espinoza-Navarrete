@@ -1,0 +1,36 @@
+.education-view-main-container {
+    display: flex;
+    flex-direction: column;
+}
+.education-view-title {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 200%;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+
+.education-view-list {
+    margin-top: 2%;
+    font-size: 150%;
+    vertical-align: center;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.education-view-list li {
+    margin-top: 1%;
+}
+
+.code-link-education-view {
+    margin-left: 1%;
+    color: black;
+    font-size: 100%;
+    transition: font-size 0.3s;
+}
+
+.code-link-education-view:hover {
+    color: orange;
+    font-size: 120%;
+}

@@ -1,0 +1,19 @@
+.about-me-presentation-main-container {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+}
+.title-about-me-presentation {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 200%;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+.paragraph-about-me-presentation {
+    font-family: 'Lato', sans-serif;
+    font-size: 140%;
+    text-align: center;
+    margin-top: 1%;
+}

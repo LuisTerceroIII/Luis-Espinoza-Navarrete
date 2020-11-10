@@ -1,0 +1,45 @@
+.project-view-main-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom:15%;
+
+}
+
+.project-view-title {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 200%;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+
+.project-view-list {
+    margin-top: 2%;
+    font-size: 150%;
+    vertical-align: center;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+.project-view-list li{
+    margin-top: 1%;
+}
+
+.code-link-project-view {
+    margin-left: 1%;
+    color: black;
+    font-size: 100%;
+    transition: font-size 0.3s;
+}
+
+
+
+.code-link-project-view:hover {
+    color: orange;
+    font-size: 120%;
+}
+/*
+.code-link-project-view:visited {
+    color: white;
+
+}*/

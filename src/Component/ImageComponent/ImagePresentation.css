@@ -1,0 +1,13 @@
+
+.image-image-presentation {
+    border: 8px solid orange;
+    border-radius: 1%;
+    box-shadow: -10px 15px 10px #1c1a1a;
+
+}
+.image-presentation-image-frame {
+
+    position: relative;
+    bottom: 1px;
+    left: 1px;
+}

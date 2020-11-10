@@ -1,38 +1,95 @@
-.App {
-  text-align: center;
+.app-main-grip-container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 0.3fr 1fr;
+    grid-template-rows: auto;
+    color: #000000;
+    background-color: white;
+    gap: 1em;
+
+}
+.position-component-container {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    justify-self: center;
+    align-self: center;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.image-component-container {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    justify-self: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.personal-info-component-container {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-left: -15%;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.about-me-component-container {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
 }
 
-.App-link {
-  color: #61dafb;
+.education-component-container {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start:4 ;
+    grid-row-end: 5;
+}
+.project-component-container {
+    grid-column-start: 1;
+    grid-column-end:3 ;
+    grid-row-start: 4;
+    grid-row-end: 5;
+
+
+}
+.soft-skills-component-container {
+    grid-column-start: 1;
+    grid-column-end:5;
+    grid-row-start: 6;
+    grid-row-end: 7;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.languages-component-container {
+    grid-column-start: 1;
+    grid-column-end:5;
+    grid-row-start: 5;
+    grid-row-end: 6;
+
+}
+
+
+.view-title {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 200%;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+
+.view-list {
+    margin-top: 2%;
+    font-size: 150%;
+    vertical-align: center;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.view-list li {
+    margin-top: 1%;
 }
