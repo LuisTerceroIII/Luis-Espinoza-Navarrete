@@ -1,5 +1,7 @@
 import React from 'react';
 import './PersonalInfoPresentation.css';
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faAngleRight} from '@fortawesome/free-solid-svg-icons'
 
 export const PersonalInfoPresentation = () => {
     return (
@@ -7,10 +9,10 @@ export const PersonalInfoPresentation = () => {
             <h3 className={'title-personal-info-presentation'}>Luis Espinoza Navarrete <i
     className="fas fa-hand-pointer pointer"/></h3>
             <ul className={'list-personal-info-presentation'}>
-                <li><i className="fas fa-angle-right arrow"/>Luis.espinoza.nav@live.com</li>
-                <li><i className="fas fa-angle-right arrow"/>+54 9 11 6967 1352</li>
-                <li><i className="fas fa-angle-right arrow"/>Calle Presidente Derqui #2024, La Lonja, Pilar</li>
-                <li><i className="fas fa-angle-right arrow"/>Availability : Full time</li>
+                <li><FontAwesomeIcon icon={faAngleRight}/>Luis.espinoza.nav@live.com</li>
+                <li><FontAwesomeIcon icon={faAngleRight}/>+54 9 11 6967 1352</li>
+                <li><FontAwesomeIcon icon={faAngleRight}/>Calle Presidente Derqui #2024, La Lonja, Pilar</li>
+                <li><FontAwesomeIcon icon={faAngleRight}/>Availability : Full time</li>
             </ul>
             <ul className={'list-two-personal-info-presentation'}>
                 <li><i className="fab fa-github" /><a href={"https://github.com/LuisTerceroIII"} target={"_blank"}>Go to Github profile</a></li>

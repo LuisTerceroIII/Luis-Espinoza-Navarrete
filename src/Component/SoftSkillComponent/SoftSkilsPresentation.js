@@ -1,5 +1,7 @@
 import React from 'react';
 import './SoftSkillsPresentation.css';
+import {faAngleRight} from "@fortawesome/free-solid-svg-icons";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 export const SoftSkillsPresentation = () => {
     return (
@@ -7,9 +9,9 @@ export const SoftSkillsPresentation = () => {
             <h3 className={'view-title'}>Skills and Technologies</h3>
             <div>
                 <ul className={'view-list'}>
-                    <li><i className="fas fa-angle-right arrow"/>Object oriented programming</li>
-                    <li><i className="fas fa-angle-right arrow"/>REST principles</li>
-                    <li><i className="fas fa-angle-right arrow"/>AWS</li>
+                    <li><FontAwesomeIcon icon={faAngleRight}/>Object oriented programming</li>
+                    <li><FontAwesomeIcon icon={faAngleRight}/>REST principles</li>
+                    <li><FontAwesomeIcon icon={faAngleRight}/>AWS</li>
                 </ul>
             </div>
         </div>

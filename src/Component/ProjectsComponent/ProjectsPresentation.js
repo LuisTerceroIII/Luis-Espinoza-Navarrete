@@ -1,5 +1,7 @@
 import React from 'react';
 import './ProjectsPresentation.css'
+import {faAngleRight} from "@fortawesome/free-solid-svg-icons";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 export const ProjectsPresentation = () => {
     return (
@@ -7,7 +9,7 @@ export const ProjectsPresentation = () => {
             <h3 className={'project-view-title'}>Projects</h3>
             <ul className={'project-view-list'}>
                 <li>
-                    <i className="fas fa-angle-right arrow"/>
+                    <FontAwesomeIcon icon={faAngleRight}/>
                     (Academic) Game for "Introduction to programming" - UNGS : Python, PyGame
                     <a className={'code-link-project-view'}
                        target={"_blank"}
@@ -15,7 +17,7 @@ export const ProjectsPresentation = () => {
                         <i className="fas fa-code"/>
                     </a>
                 </li>
-                <li><i className="fas fa-angle-right arrow"/>
+                <li><FontAwesomeIcon icon={faAngleRight}/>
                     (Academic) Game for "Programming I" - UNGS : Java
                     <a className={'code-link-project-view'}
                        target={"_blank"}
@@ -23,7 +25,7 @@ export const ProjectsPresentation = () => {
                         <i className="fas fa-code"/>
                     </a>
                 </li>
-                <li><i className="fas fa-angle-right arrow"/>
+                <li><FontAwesomeIcon icon={faAngleRight}/>
                     (Personal) API - Contacts store : Node Js, Express, Mongo DB, Mongoose, Robo 3T
                     <a className={'code-link-project-view'}
                        target={"_blank"}
@@ -32,7 +34,7 @@ export const ProjectsPresentation = () => {
                     </a>
                 </li>
                 <li>
-                    <i className="fas fa-angle-right arrow"/>
+                    <FontAwesomeIcon icon={faAngleRight}/>
                     (Personal) Single Page Application - TO DO - Angular, Angular material
                     <a className={'code-link-project-view'}
                        target={"_blank"}
@@ -41,7 +43,7 @@ export const ProjectsPresentation = () => {
                     </a>
                 </li>
                 <li>
-                    <i className="fas fa-angle-right arrow"/>
+                    <FontAwesomeIcon icon={faAngleRight}/>
                     (Personal) API REST - SHOP : Java, PostgresSQL, Spring Boot, Spring Data, Spring web,Spring HATEOAS (REST PRINCIPLES)
                     <a className={'code-link-project-view'}
                        target={"_blank"}
@@ -50,7 +52,7 @@ export const ProjectsPresentation = () => {
                     </a>
                 </li>
                 <li>
-                    <i className="fas fa-angle-right arrow"/>
+                    <FontAwesomeIcon icon={faAngleRight}/>
                     (Personal) React Site - "Filosofia Web" : React
                     <a className={'code-link-project-view'}
                        target={"_blank"}
@@ -59,7 +61,7 @@ export const ProjectsPresentation = () => {
                     </a>
                 </li>
                 <li>
-                    <i className="fas fa-angle-right arrow"/>
+                    <FontAwesomeIcon icon={faAngleRight}/>
                     (Actual) Web Application - "Jardín" : Java, Spring Boot,Spring Data, Spring web, Spring Security, Heroku PostgrestSQL, AWS S3, AWS EC2, React
                     <a className={'code-link-project-view'}
                        target={"_blank"}

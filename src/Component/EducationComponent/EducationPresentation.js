@@ -1,5 +1,7 @@
 import './EducationPresentation.css'
 import React from 'react';
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faAngleRight} from '@fortawesome/free-solid-svg-icons'
 
 export const EducationPresentation = () => {
     return (
@@ -7,16 +9,16 @@ export const EducationPresentation = () => {
             <h3 className={'education-view-title'}>Education</h3>
             <ul className={'education-view-list'}>
                 <li>
-                    <i className="fas fa-angle-right arrow"/>
+                    <FontAwesomeIcon icon={faAngleRight}/>
                     Universidad General Sarmiento : since 2019 <br/>
                     "Tecnicatura superior en informatica"
                 </li>
-                <li><i className="fas fa-angle-right arrow"/>
+                <li><FontAwesomeIcon icon={faAngleRight}/>
                    Universidad Tecnologica Nacional : 2019 <br/>
                   "Diplomatura Java"
 
                 </li>
-                <li><i className="fas fa-angle-right arrow"/>
+                <li><FontAwesomeIcon icon={faAngleRight}/>
                    Universidad de Buenos Aires : 2015 - 2018 <br/>
                     "Licenciatura en Filosofia"
 
