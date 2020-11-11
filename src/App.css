@@ -15,6 +15,7 @@
     grid-row-end: 2;
     justify-self: center;
     align-self: center;
+    margin: 3%;
 
 }
 
@@ -92,4 +93,69 @@
 
 .view-list li {
     margin-top: 1%;
+}
+
+
+/*
+    Responsive css
+*/
+
+
+@media only screen and (max-width: 1150px)  {
+    .personal-info-component-container {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        margin-left: -5%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .app-main-grip-container {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 1fr;
+        gap: 2em;
+    }
+
+    .image-component-container {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        justify-self: center;
+
+    }
+
+    .personal-info-component-container {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        justify-content: center;
+    }
+    .about-me-component-container {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+
+    .education-component-container {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start:5;
+        grid-row-end: 6;
+    }
+    .project-component-container {
+        grid-column-start: 1;
+        grid-column-end:4 ;
+        grid-row-start: 6;
+        grid-row-end: 7;
+    }
+
+    li {
+        line-height: 156%;
+    }
 }

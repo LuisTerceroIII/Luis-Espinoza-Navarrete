@@ -16,7 +16,6 @@
 .list-personal-info-presentation {
     margin-top: 2%;
     font-size: 150%;
-    vertical-align: center;
     font-family: 'Lato', sans-serif;
 }
 
@@ -63,4 +62,21 @@
 .list-two-personal-info-presentation a:hover {
     font-size: 105%;
     color: orange;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .title-personal-info-presentation {
+        text-align: center;
+    }
+    .list-personal-info-presentation {
+        margin-top: 5%;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .list-two-personal-info-presentation {
+        text-align: center;
+
+    }
 }
