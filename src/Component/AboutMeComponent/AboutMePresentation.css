@@ -17,3 +17,10 @@
     text-align: center;
     margin-top: 1%;
 }
+
+@media only screen and (max-width: 900px) {
+    .paragraph-about-me-presentation {
+        font-size: 125%;
+        margin-top: 5%;
+    }
+}

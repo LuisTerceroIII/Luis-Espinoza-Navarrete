@@ -1,8 +1,8 @@
 import React from "react";
 import {AboutMePresentation} from "./AboutMePresentation";
 
-export const AboutMeContainer = () => {
+export const AboutMeContainer = (props) => {
     return (
-        <AboutMePresentation />
+        <AboutMePresentation aboutMe={props.aboutMe} />
     )
 }

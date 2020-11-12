@@ -14,13 +14,14 @@
 .education-view-list {
     margin-top: 2%;
     font-size: 150%;
-    vertical-align: center;
+
     font-family: 'Lato', sans-serif;
     text-align: center;
 }
 
 .education-view-list li {
-    margin-top: 1%;
+    padding: 1%;
+    line-height: 50px;
 }
 
 .code-link-education-view {
@@ -33,4 +34,15 @@
 .code-link-education-view:hover {
     color: orange;
     font-size: 120%;
+}
+
+@media only screen and (max-width: 900px) {
+    .education-view-list li {
+        padding: 2%;
+    }
+}
+
+
+.university-name-education-view {
+    font-weight: 600;
 }

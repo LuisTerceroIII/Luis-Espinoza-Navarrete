@@ -1,8 +1,9 @@
 import React from 'react';
 import {PositionPresentation} from "./PositionPresentation";
 
-export const PositionContainer = () => {
+export const PositionContainer = (props) => {
+
     return (
-        <PositionPresentation />
+        <PositionPresentation position={props.position} />
     )
 }

@@ -1,12 +1,12 @@
 import React from 'react';
 import './AboutMePresentation.css'
 
-export const AboutMePresentation = () => {
+export const AboutMePresentation = (props) => {
     return(
         <div className={'about-me-presentation-main-container'}>
-            <h3 className={'title-about-me-presentation'}>About me</h3>
+            <h3 className={'title-about-me-presentation'}>{props.aboutMe.title}</h3>
             <p className={'paragraph-about-me-presentation'}>
-                Web developer specializing in : Java, JavaScript, SQL, React, Spring Boot.
+                {props.aboutMe.message}
             </p>
         </div>
     )

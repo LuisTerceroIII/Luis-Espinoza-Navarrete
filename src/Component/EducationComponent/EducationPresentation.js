@@ -3,26 +3,22 @@ import React from 'react';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faAngleRight} from '@fortawesome/free-solid-svg-icons'
 
-export const EducationPresentation = () => {
+export const EducationPresentation = (props) => {
+
+    const education = props.education.education.map((education,key) => {
+        return (
+            <li>
+                <FontAwesomeIcon icon={faAngleRight}/>
+                {education[0]}<br/>
+                <span className={"university-name-education-view"}>"{education[1]}"</span>
+            </li>
+        )
+    })
     return (
         <div className={'education-view-main-container'}>
             <h3 className={'education-view-title'}>Education</h3>
             <ul className={'education-view-list'}>
-                <li>
-                    <FontAwesomeIcon icon={faAngleRight}/>
-                    Universidad General Sarmiento : since 2019 <br/>
-                    "Tecnicatura superior en informatica"
-                </li>
-                <li><FontAwesomeIcon icon={faAngleRight}/>
-                   Universidad Tecnologica Nacional : 2019 <br/>
-                  "Diplomatura Java"
-
-                </li>
-                <li><FontAwesomeIcon icon={faAngleRight}/>
-                   Universidad de Buenos Aires : 2015 - 2018 <br/>
-                    "Licenciatura en Filosofia"
-
-                </li>
+                {education}
             </ul>
         </div>
     )

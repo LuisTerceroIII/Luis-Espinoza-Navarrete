@@ -2,8 +2,8 @@ import {ProjectsPresentation} from "./ProjectsPresentation";
 import React from "react";
 
 
-export const ProjectsContainer = () => {
+export const ProjectsContainer = (props) => {
     return (
-        <ProjectsPresentation />
+        <ProjectsPresentation projects={props.projects} />
     )
 }

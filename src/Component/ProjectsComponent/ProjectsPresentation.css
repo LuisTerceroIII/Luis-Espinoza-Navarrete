@@ -2,6 +2,8 @@
     display: flex;
     flex-direction: column;
     margin-bottom:15%;
+    position: relative;
+    left: 40px
 
 }
 
@@ -17,12 +19,12 @@
 .project-view-list {
     margin-top: 2%;
     font-size: 150%;
-    vertical-align: center;
     font-family: 'Lato', sans-serif;
     text-align: center;
 }
 .project-view-list li{
-    margin-top: 1%;
+    padding: 0.5%;
+    line-height: 50px;
 }
 
 .code-link-project-view {
@@ -38,6 +40,19 @@
     color: orange;
     font-size: 120%;
 }
+
+
+@media only screen and (max-width: 900px) {
+    .project-view-list li {
+        padding: 2%;
+    }
+    .project-view-main-container {
+        position: relative;
+        left: 0px
+
+    }
+}
+
 /*
 .code-link-project-view:visited {
     color: white;
