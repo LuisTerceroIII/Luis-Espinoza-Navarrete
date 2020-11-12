@@ -10,7 +10,6 @@ import {ProjectsContainer} from "./Component/ProjectsComponent/ProjectsContainer
 import {LanguagesContainer} from "./Component/LanguagesComponent/LanguagesContainer";*/
 import {data} from './data/Data'
 function App() {
-
     return (
         <div className={'app-main-grip-container'}>
 
