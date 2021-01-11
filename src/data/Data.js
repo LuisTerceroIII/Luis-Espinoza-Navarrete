@@ -16,7 +16,7 @@ const Image = "https://i.ibb.co/cQ8jHcZ/Luis-Espinoza-Navarrete.png"
 const PersonalInfo = {
     title : "Luis Espinoza Navarrete",
     email: "Luis.espinoza.nav@live.com",
-    phone: "+54 9 11 6967 1352",
+    phone: "+54 9 11 2388 1314",
     address: "Calle Presidente Derqui #2024, La Lonja, Pilar",
     availability : "Full time",
     githubPage: "https://github.com/LuisTerceroIII",
@@ -32,6 +32,7 @@ const Projects = {
         ["(Personal) Single Page Application - TO DO - Angular, Angular material","https://github.com/LuisTerceroIII/Contact-List-Angular"],
         ["(Personal) API REST - SHOP : Java, PostgresSQL, Spring Boot, Spring Data, Spring web,Spring HATEOAS (REST PRINCIPLES)","https://github.com/LuisTerceroIII/REST-API-MADE-WITH-SPRING-BOOT"],
         ["(Personal) React Site - \"Filosofia Web\" : React","https://github.com/LuisTerceroIII/Web-Filosofia"],
+        ["(Personal) Deploy React Site - No responsive - Optimized for Chrome not Firefox - \"Filosofia Web\" : React","https://luisterceroiii.github.io/Web-Filosofia/"],
         [" (Actual) Web Application - \"Jardín\" : Java, Spring Boot,Spring Data, Spring web, Spring Security, Heroku PostgrestSQL, AWS S3, AWS EC2, React",""]
     ]
 }
