@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Luis-Espinoza-Navarrete/static/css/main.a205db85.chunk.css",
-    "main.js": "/Luis-Espinoza-Navarrete/static/js/main.83814f2a.chunk.js",
-    "main.js.map": "/Luis-Espinoza-Navarrete/static/js/main.83814f2a.chunk.js.map",
+    "main.js": "/Luis-Espinoza-Navarrete/static/js/main.e502b9f9.chunk.js",
+    "main.js.map": "/Luis-Espinoza-Navarrete/static/js/main.e502b9f9.chunk.js.map",
     "runtime-main.js": "/Luis-Espinoza-Navarrete/static/js/runtime-main.cef42c4e.js",
     "runtime-main.js.map": "/Luis-Espinoza-Navarrete/static/js/runtime-main.cef42c4e.js.map",
     "static/js/2.bbea700e.chunk.js": "/Luis-Espinoza-Navarrete/static/js/2.bbea700e.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.cef42c4e.js",
     "static/js/2.bbea700e.chunk.js",
     "static/css/main.a205db85.chunk.css",
-    "static/js/main.83814f2a.chunk.js"
+    "static/js/main.e502b9f9.chunk.js"
   ]
 }
